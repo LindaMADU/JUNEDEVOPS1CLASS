@@ -8,7 +8,7 @@ pipeline{
            stage('Checkout with git'){
               steps{
 		 echo 'cloning..'
-                 git 'https://github.com/RayItern/JUNECLASSPRO1.git'
+                 git 'https://github.com/LindaMADU/JUNEDEVOPS1CLASS.git'
               }
           }
           stage('Compile with mvn1'){
